@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: aquamarine;
+    display: grid;
+    font-size: 1.6rem;
+
+    place-items: center;
+    height: 100vh;
+
+}
+
+main{
+
+    background-color: white;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem ;
+
+    width: min(42.8rem, 90%);
+
+    margin-top: -12rem;
+
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+}
+
+h1, p{
+    color:black
+}
+ 
+p{
+    opacity: 0.8;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+}
+
+input{
+    background-color: whitesmoke;
+    width: 8rem;
+    border-radius: .4rem 0 0  ;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+}
+
